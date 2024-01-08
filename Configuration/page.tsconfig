@@ -1,0 +1,13 @@
+mod.wizards.newContentElement.wizardItems {
+    common.elements {
+        cookiebot_declaration {
+            iconIdentifier = actions-cookie
+            title = LLL:EXT:cookiebot/Resources/Private/Language/backend.xlf:tt_content.cookiebot.title
+            description = LLL:EXT:cookiebot/Resources/Private/Language/backend.xlf:tt_content.cookiebot.description
+            tt_content_defValues {
+                CType = cookiebot_declaration
+            }
+        }
+    }
+    common.show := addToList(cookiebot_declaration)
+}

@@ -1,0 +1,36 @@
+{
+  "name": "gaya/cookiebot",
+  "description": "Cookiebot integration",
+  "type": "typo3-cms-extension",
+  "license": "GPL-2.0-or-later",
+  "keywords": [
+    "typo3",
+    "cookiebot",
+    "gdpr"
+  ],
+  "authors": [
+    {
+      "name": "GAYA",
+      "email": "contact@gaya.fr",
+      "homepage": "https://www.gaya.fr",
+      "role": "maintainer"
+    }
+  ],
+  "require": {
+    "typo3/cms-core": "^11.0 || ^12.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "GAYA\\Cookiebot\\": "Classes/"
+    }
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "cookiebot"
+    }
+  },
+  "conflict": {
+    "nitsan/ns-cookiebot":  "*",
+    "mjpr/cookiebot":  "*"
+  }
+}

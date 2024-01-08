@@ -1,0 +1,13 @@
+["{$plugin.tx_cookiebot.cbid}" != ""]
+    # Include cookiebot library
+    page.headerData.1 = TEXT
+    page.headerData.1.value = <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="{$plugin.tx_cookiebot.cbid}" data-blockingmode="auto" type="text/javascript"></script>
+
+    # CType: cookiebot
+    tt_content.cookiebot_declaration = TEXT
+    tt_content.cookiebot_declaration.value = <script id="CookieDeclaration" src="https://consent.cookiebot.com/{$plugin.tx_cookiebot.cbid}/cd.js" type="text/javascript" async></script>
+[ELSE]
+    # CType: cookiebot
+    tt_content.cookiebot_declaration = TEXT
+    tt_content.cookiebot_declaration.value = <p>Cookiebot ID is not defined</p>
+[END]

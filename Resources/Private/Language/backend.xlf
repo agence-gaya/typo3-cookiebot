@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2024-01-08T10:00:00Z" product-name="cookiebot">
+		<header/>
+		<body>
+			<!--WIZARD-->
+			<trans-unit id="tt_content.cookiebot.title">
+				<source>Cookiebot declaration</source>
+			</trans-unit>
+			<trans-unit id="tt_content.cookiebot.description">
+				<source>Insert cookiebot declaration bloc.</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

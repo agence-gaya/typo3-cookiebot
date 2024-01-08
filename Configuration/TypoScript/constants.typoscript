@@ -1,0 +1,7 @@
+# customcategory=tx_cookiebot=Cookiebot
+# customsubcategory=general=General
+
+plugin.tx_cookiebot {
+    # cat=tx_cookiebot/general; type=string; label=Cookiebot ID
+    cbid =
+}
