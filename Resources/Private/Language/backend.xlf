@@ -8,7 +8,7 @@
 				<source>Cookiebot declaration</source>
 			</trans-unit>
 			<trans-unit id="tt_content.cookiebot.description">
-				<source>Insert cookiebot declaration bloc.</source>
+				<source>Insert Cookiebot declaration block.</source>
 			</trans-unit>
 		</body>
 	</file>
