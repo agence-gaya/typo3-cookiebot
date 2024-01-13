@@ -1,5 +1,5 @@
 {
-  "name": "gaya/cookiebot",
+  "name": "gaya/typo3-cookiebot",
   "description": "Cookiebot integration",
   "type": "typo3-cms-extension",
   "license": "GPL-2.0-or-later",
